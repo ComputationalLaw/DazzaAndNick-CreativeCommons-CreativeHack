@@ -58,33 +58,31 @@ This hack is about exploring the question whether two or more parties who desire
 # The Terms
 
 
-
-## <contract>
- 
-### <contract-front>
-
 ```
+
+<contract>
+ 
+<contract-front>
 
        <party-block>   
          <party></party>   
          <address></address>    
        </party-block> {repeat for each party}
 
-```
 
-```
+<section> The parties agree to incorporate by reference the legal terms of "Attribution-NonCommercial-NoDerivatives 4.0 International" [here: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode] and hereby adopt the terms as the complete and final license agreement. </section>
 
-   <section> The parties agree to incorporate by reference the legal terms of "Attribution-NonCommercial-NoDerivatives 4.0 International" [here: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode] and hereby adopt the terms as the complete and final license agreement. </section>
+</contract-front>
 
 
 ```
    
-### </contract-front>
-
-
-### <contract-body> 
 
 ```
+
+
+<contract-body> 
+
 
 <section> 
 
@@ -306,13 +304,13 @@ Creative Commons may be contacted at creativecommons.org.
 
 </section> 
 
+</contract-body> 
+
+<contract-back>
 
 ``` 
 
-### </contract-body> 
 
-
-### <contract-back>
 
 
 ```
@@ -323,10 +321,9 @@ Creative Commons may be contacted at creativecommons.org.
     <signature></signature>
 </signature-block> {repeat for each party}
 
+
+ </contract-back>
+
+ </contract>
+
 ```
-
-### </contract-back>
-
-## </contract>
-
-

@@ -40,19 +40,19 @@ This hack is about exploring the question whether two or more parties who desire
 * Assume the licese used to start is the "Attribution-NonCommercial-NoDerivatives 4.0 International"  See: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
 
 
-# The Evaluation**
+# The Evaluation
 
 ## Potential Benefits 
 
-**What additional legal benefits, including certainty, is available from including valid signature by explicitly identified parties to the license?  That is, in the event a party breaches terms of the license, would presence of the signature by and identity information about the party against whom enforcement is sought?**
+> What additional legal benefits, including certainty, is available from including valid signature by explicitly identified parties to the license?  That is, in the event a party breaches terms of the license, would presence of the signature by and identity information about the party against whom enforcement is sought?
 
 ## Potential Problems
 
-**How, if at all, does this modification limit or prevent the expected media sharing intended by use of Creative Commons terms? EG: do these modifications have unintended results that thwart rather than enable expected sharing of the media?**
+> How, if at all, does this modification limit or prevent the expected media sharing intended by use of Creative Commons terms? EG: do these modifications have unintended results that thwart rather than enable expected sharing of the media?
 
 ## Potential Solutions
 
-**How might parties address unintended consequences with a further tweak of some type such that the inclusion of party information and signatures meets or exceeds practical needs and legal outcomes currently expected from use of this license?**
+> How might parties address unintended consequences with a further tweak of some type such that the inclusion of party information and signatures meets or exceeds practical needs and legal outcomes currently expected from use of this license?
 
 
 # The Terms

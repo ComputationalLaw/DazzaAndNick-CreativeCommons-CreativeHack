@@ -58,24 +58,33 @@ This hack is about exploring the question whether two or more parties who desire
 # The Terms
 
  - - - START - - - 
+
+## <contract>
  
- ```
- 
-<contract-front>
+### <contract-front>
+
+```
 
        <party-block>   
          <party></party>   
          <address></address>    
        </party-block> {repeat for each party}
 
-   <section> The parties agree to incorporate by reference the legal terms of "Attribution-NonCommercial-NoDerivatives 4.0 International" [here: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode] and hereby adopt the terms as the complete and final license agreement. </section>
-   
-</contract-front>
-
+```
 
 ```
 
-<contract-body> 
+   <section> The parties agree to incorporate by reference the legal terms of "Attribution-NonCommercial-NoDerivatives 4.0 International" [here: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode] and hereby adopt the terms as the complete and final license agreement. </section>
+
+
+```
+   
+### </contract-front>
+
+
+### <contract-body> 
+
+```
 
 <section> 
 
@@ -93,6 +102,11 @@ Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Publi
 By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License ("Public License"). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.
 
 </section> 
+
+```
+
+```
+
 <section> 
 
 Section 1 – Definitions.
@@ -119,6 +133,11 @@ Sui Generis Database Rights means rights other than copyright resulting from Dir
 You means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.
 
 </section> 
+
+```
+
+```
+
 <section> 
 
 Section 2 – Scope.
@@ -154,6 +173,11 @@ Patent and trademark rights are not licensed under this Public License.
 To the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties, including when the Licensed Material is used other than for NonCommercial purposes.
 
 </section> 
+
+```
+
+```
+
 <section> 
 
 Section 3 – License Conditions.
@@ -186,6 +210,11 @@ You may satisfy the conditions in Section 3(a)(1) in any reasonable manner based
 If requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.
 
 </section> 
+
+```
+
+```
+
 <section> 
 
 Section 4 – Sui Generis Database Rights.
@@ -201,6 +230,11 @@ You must comply with the conditions in Section 3(a) if You Share all or a substa
 For the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.
 
 </section> 
+
+```
+
+```
+
 <section> 
 
 Section 5 – Disclaimer of Warranties and Limitation of Liability.
@@ -212,6 +246,11 @@ To the extent possible, in no event will the Licensor be liable to You on any le
 The disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.
 
 </section> 
+
+```
+
+```
+
 <section> 
 
 Section 6 – Term and Termination.
@@ -230,6 +269,11 @@ For the avoidance of doubt, the Licensor may also offer the Licensed Material un
 Sections 1, 5, 6, 7, and 8 survive termination of this Public License.
 
 </section> 
+
+```
+
+```
+
 <section> 
 
 Section 7 – Other Terms and Conditions.
@@ -239,6 +283,11 @@ The Licensor shall not be bound by any additional or different terms or conditio
 Any arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.
 
 </section> 
+
+```
+
+```
+
 <section> 
 
 Section 8 – Interpretation.
@@ -257,13 +306,16 @@ Creative Commons may be contacted at creativecommons.org.
 
 </section> 
 
-</contract-body> 
+
+``` 
+
+### </contract-body> 
+
+
+### <contract-back>
+
 
 ```
-
-```
-
-<contract-back>
 
  <signature-block>
     <name></name>
@@ -271,10 +323,12 @@ Creative Commons may be contacted at creativecommons.org.
     <signature></signature>
 </signature-block> {repeat for each party}
 
-</contract-back>
-
-</contract>
-
 ```
+
+### </contract-back>
+
+## </contract>
+
+
 
 - - - END - - - 

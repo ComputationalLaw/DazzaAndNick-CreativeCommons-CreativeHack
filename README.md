@@ -1,5 +1,10 @@
 # Creatively Hacking Creative Commons
 
+## The Current Versions
+
+* Use this version to [view all the content](https://computationallaw.github.io/DazzaAndNick-CreativeCommons-CreativeHack)
+* Use this version to [hack all the content](https://github.com/ComputationalLaw/DazzaAndNick-CreativeCommons-CreativeHack)
+
 ## The Hack
 
 At the course level, this hack is intended to confirm an example of the following:

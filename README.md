@@ -23,7 +23,8 @@ This hack is about exploring the question whether two or more parties who desire
 
 * Assume the video is encoded and formatted as standard .mp4 file of 10-20 megabytes in size
 
-* Assume the video file carries with it metadata set by the licensor in standard formats and structures (eg: https://vimeo.com/blog/post/how-to-master-video-seo-pt-1-titles-descriptions-a; https://developer.vimeo.com/api/authentication#supported-scopes)
+* Assume the video file carries with it metadata set by the licensor in standard formats and structures (eg: 
+Using this API call http://vimeo.com/api/v2/video/1084537.json  you get the following JSON response: [{"id":1084537,"title":"Big Buck Bunny","description":"Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him, something snaps... and the rabbit ain't no bunny anymore! In the typical cartoon tradition he prepares the nasty rodents a comical revenge.<br \/>\n<br \/>\nLicensed under the Creative Commons Attribution license<br \/>\n<br \/>\nhttp:\/\/www.bigbuckbunny.org","url":"https:\/\/vimeo.com\/1084537","upload_date":"2008-05-29 05:08:02","mobile_url":"https:\/\/vimeo.com\/1084537","thumbnail_small":"https:\/\/i.vimeocdn.com\/video\/20963649_100x75.webp","thumbnail_medium":"https:\/\/i.vimeocdn.com\/video\/20963649_200x150.webp","thumbnail_large":"https:\/\/i.vimeocdn.com\/video\/20963649_640.webp","user_id":508904,"user_name":"Blender Foundation","user_url":"https:\/\/vimeo.com\/user508904","user_portrait_small":"https:\/\/i.vimeocdn.com\/portrait\/882428_30x30.webp","user_portrait_medium":"https:\/\/i.vimeocdn.com\/portrait\/882428_75x75.webp","user_portrait_large":"https:\/\/i.vimeocdn.com\/portrait\/882428_100x100.webp","user_portrait_huge":"https:\/\/i.vimeocdn.com\/portrait\/882428_300x300.webp","stats_number_of_likes":4306,"stats_number_of_plays":4545747,"stats_number_of_comments":316,"duration":597,"width":1280,"height":720,"tags":"Peach, Blender, Big Buck Bunny, CGI, Animation, 3D, Creative Commons, HD, lymi","embed_privacy":"anywhere"}]
 
 **The System** 
 
@@ -33,24 +34,44 @@ This hack is about exploring the question whether two or more parties who desire
 
 **The License** 
 
-* "Attribution-NonCommercial-NoDerivatives 4.0 International" 
-* See: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+* Assume the licese used to start is the "Attribution-NonCommercial-NoDerivatives 4.0 International"  See: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
 
-## The Evaluation**
 
-* What additional legal benefits, including certainty, is available from including valid signature by explicitly identified parties to the license?  That is, in the event a party breaches terms of the license, would presence of the signature by and identity information about the party against whom enforcement is sought?
+# The Evaluation**
 
-* How, if at all, does this modification limit or prevent the expected media sharing intended by use of Creative Commons terms? EG: do these modifications have unintended results that thwart rather than enable expected sharing of the media?
+## Potential Benefits 
 
-* How might parties address unintended consequences with a further tweak of some type such that the inclusion of party information and signatures meets or exceeds practical needs and legal outcomes currently expected from use of this license?
+**What additional legal benefits, including certainty, is available from including valid signature by explicitly identified parties to the license?  That is, in the event a party breaches terms of the license, would presence of the signature by and identity information about the party against whom enforcement is sought?**
+
+## Potential Problems
+
+**How, if at all, does this modification limit or prevent the expected media sharing intended by use of Creative Commons terms? EG: do these modifications have unintended results that thwart rather than enable expected sharing of the media?**
+
+## Potential Solutions
+
+**How might parties address unintended consequences with a further tweak of some type such that the inclusion of party information and signatures meets or exceeds practical needs and legal outcomes currently expected from use of this license?**
+
 
 # The Terms
 
-* See https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
-
  - - - START - - - 
+ 
+<contract-front>
 
-Creative Commons Corporation (“Creative Commons”) is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an “as-is” basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
+       <party-block>   
+         <party></party>   
+         <address></address>    
+       </party-block> {repeat for each party}
+
+   <section> The parties agree to incorporate by reference the legal terms of "Attribution-NonCommercial-NoDerivatives 4.0 International" [here: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode] and hereby adopt the terms as the complete and final license agreement. </section>
+   
+</contract-front>
+
+<contract-body> 
+
+<section> 
+
+https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
 
 Using Creative Commons Public Licenses
 
@@ -62,6 +83,9 @@ Considerations for the public: By using one of our public licenses, a licensor g
 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License
 
 By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License ("Public License"). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.
+
+</section> 
+<section> 
 
 Section 1 – Definitions.
 
@@ -85,6 +109,9 @@ Share means to provide material to the public by any means or process that requi
 Sui Generis Database Rights means rights other than copyright resulting from Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, as amended and/or succeeded, as well as other essentially equivalent rights anywhere in the world.
 
 You means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.
+
+</section> 
+<section> 
 
 Section 2 – Scope.
 
@@ -118,6 +145,9 @@ Patent and trademark rights are not licensed under this Public License.
 
 To the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties, including when the Licensed Material is used other than for NonCommercial purposes.
 
+</section> 
+<section> 
+
 Section 3 – License Conditions.
 
 Your exercise of the Licensed Rights is expressly made subject to the following conditions.
@@ -147,6 +177,9 @@ You may satisfy the conditions in Section 3(a)(1) in any reasonable manner based
 
 If requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.
 
+</section> 
+<section> 
+
 Section 4 – Sui Generis Database Rights.
 
 Where the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:
@@ -159,6 +192,9 @@ You must comply with the conditions in Section 3(a) if You Share all or a substa
 
 For the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.
 
+</section> 
+<section> 
+
 Section 5 – Disclaimer of Warranties and Limitation of Liability.
 
 Unless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.
@@ -166,6 +202,10 @@ Unless otherwise separately undertaken by the Licensor, to the extent possible, 
 To the extent possible, in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Public License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages. Where a limitation of liability is not allowed in full or in part, this limitation may not apply to You.
 
 The disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.
+
+</section> 
+<section> 
+
 Section 6 – Term and Termination.
 
 This Public License applies for the term of the Copyright and Similar Rights licensed here. However, if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.
@@ -181,11 +221,17 @@ For the avoidance of doubt, the Licensor may also offer the Licensed Material un
 
 Sections 1, 5, 6, 7, and 8 survive termination of this Public License.
 
+</section> 
+<section> 
+
 Section 7 – Other Terms and Conditions.
 
 The Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.
 
 Any arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.
+
+</section> 
+<section> 
 
 Section 8 – Interpretation.
 
@@ -200,5 +246,22 @@ Nothing in this Public License constitutes or may be interpreted as a limitation
 Creative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the “Licensor.” The text of the Creative Commons public licenses is dedicated to the public domain under the CC0 Public Domain Dedication. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at creativecommons.org/policies, Creative Commons does not authorize the use of the trademark “Creative Commons” or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.
 
 Creative Commons may be contacted at creativecommons.org.
+
+</section> 
+
+</contract-body> 
+
+
+<contract-back>
+
+ <signature-block>
+    <name></name>
+    <date></date>
+    <signature></signature>
+</signature-block> {repeat for each party}
+
+</contract-back>
+
+</contract>
 
 - - - END - - - 

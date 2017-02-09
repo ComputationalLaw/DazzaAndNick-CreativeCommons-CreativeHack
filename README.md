@@ -56,6 +56,8 @@ Using this API call http://vimeo.com/api/v2/video/1084537.json  you get the foll
 
  - - - START - - - 
  
+ ```
+ 
 <contract-front>
 
        <party-block>   
@@ -68,6 +70,8 @@ Using this API call http://vimeo.com/api/v2/video/1084537.json  you get the foll
 </contract-front>
 
 <contract-body> 
+
+```
 
 <section> 
 
@@ -251,8 +255,9 @@ Creative Commons may be contacted at creativecommons.org.
 
 </contract-body> 
 
+```
 
-'''<contract-back>
+```<contract-back>
 
  <signature-block>
     <name></name>
@@ -263,5 +268,7 @@ Creative Commons may be contacted at creativecommons.org.
 </contract-back>
 
 </contract>
+
+```
 
 - - - END - - - 

@@ -2,7 +2,17 @@
 
 ## The Hack
 
-This hack is about exploring the question whether two or more parties who desire to negotiate and sign a license to share digital video media via the web can choose to adopt the standard legal terms of a Creative Commons license that adequately reflects their intent (ie: promotes sharing, prevents commercial use, etc) by replacing the legal entity "Creative Commons Corporation" with their own names/addresses and signatures in the familiar form of bilateral contracts?  
+At the course level, this hack is intended to confirm an example of the following:
+
+> "You can see the text at https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode. 
+
+> We'd drop the first paragraph about CC, add an opening paragraph with the names addresses & contact info for both parties at the top and signature blocks at the bottom. 
+
+> Keep all the rest."
+
+At a slightly more refined level, this hack is about exploring the question whether two or more parties who desire to negotiate and sign a license to share digital video media via the web can choose to adopt the standard legal terms of a Creative Commons license that adequately reflects their intent (ie: promotes sharing, prevents commercial use, etc) by replacing the legal entity "Creative Commons Corporation" with their own names/addresses and signatures in the familiar form of bilateral contracts?  
+
+At the most refined level, this hack is about creating a well-suited solution and verifying the solution is fit to purpose.  Here are some draft criteria Dazza has in mind: https://github.com/ComputationalLaw/DazzaAndNick-CreativeCommons-CreativeHack/blob/master/Evaluation.md  Nick is invited to review the evaluation criteria and either confirm or offer modifications, alternatives or replacements. 
 
 # Draft Contract
 

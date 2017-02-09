@@ -308,6 +308,10 @@ Creative Commons may be contacted at creativecommons.org.
 
 </section> 
 
+```
+
+```
+
 </contract-body> 
 
 
@@ -325,7 +329,6 @@ Creative Commons may be contacted at creativecommons.org.
     <date></date>
     <signature></signature>
 </signature-block> {repeat for each party}
-
 
  </contract-back>
 

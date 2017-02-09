@@ -1,11 +1,9 @@
 # Creatively Hacking Creative Commons
 
-## The Current Versions
+## Use this version to [view all the content](https://computationallaw.github.io/DazzaAndNick-CreativeCommons-CreativeHack)
+## Use this version to [hack all the content](https://github.com/ComputationalLaw/DazzaAndNick-CreativeCommons-CreativeHack)
 
-* Use this version to [view all the content](https://computationallaw.github.io/DazzaAndNick-CreativeCommons-CreativeHack)
-* Use this version to [hack all the content](https://github.com/ComputationalLaw/DazzaAndNick-CreativeCommons-CreativeHack)
-
-## The Hack
+# The Hack
 
 At the course level, this hack is intended to confirm an example of the following:
 
@@ -19,11 +17,13 @@ At a slightly more refined level, this hack is about exploring the question whet
 
 At the most refined level, this hack is about creating a well-suited solution and verifying the solution is fit to purpose.  Here are some draft criteria Dazza has in mind: https://github.com/ComputationalLaw/DazzaAndNick-CreativeCommons-CreativeHack/blob/master/Evaluation.md  Nick is invited to review the evaluation criteria and either confirm or offer modifications, alternatives or replacements. 
 
-# Draft Contract
+# The Draft
 
 ## Superficial Familiar Layout
 
 The following version provides a familiar layout through an embedded Google Doc resembling a Microsoft Office Word Processing File or an Adobe PDF File.  This version is presented to avoid confusion as to whether use of GitHub as a file repository for drafting a legal license is the same as using GitHub to develop software.  [Lawyers using GitHub](https://jduclos.com/notes/github-for-lawyers) for [legal content](https://github.com/HumanDynamics/LegalAgreements/wiki/Relevant-Uses-of-GitHub-for-Legal-Document) is a long-standing practice and does not mean "going open source with software here" with respect to any code depicted in the video to be licensed by the terms drafted herein. 
+
+The Google Doc also affords a nice looking table feature, which is used to make a clearer and more direct check list of each  proposed change to the otherise standard license terms cross-referenced to the corresponding draft content.
 
 <iframe src="https://docs.google.com/document/d/1xzKdEAYNLgorZYwGyqWMgf1-CH17DBZCFUTD6_j72GM/pub?embedded=true" width="800" height="1200"></iframe>
 

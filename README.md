@@ -61,6 +61,10 @@ This hack is about exploring the question whether two or more parties who desire
 ```
 
 <contract>
+
+```
+
+```
  
 <contract-front>
 
@@ -306,7 +310,6 @@ Creative Commons may be contacted at creativecommons.org.
 
 </contract-body> 
 
-<contract-back>
 
 ``` 
 
@@ -314,6 +317,8 @@ Creative Commons may be contacted at creativecommons.org.
 
 
 ```
+<contract-back>
+
 
  <signature-block>
     <name></name>
@@ -323,6 +328,10 @@ Creative Commons may be contacted at creativecommons.org.
 
 
  </contract-back>
+
+```
+
+```
 
  </contract>
 

@@ -57,7 +57,7 @@ This hack is about exploring the question whether two or more parties who desire
 
 # The Terms
 
- - - - START - - - 
+
 
 ## <contract>
  
@@ -330,5 +330,3 @@ Creative Commons may be contacted at creativecommons.org.
 ## </contract>
 
 
-
-- - - END - - - 

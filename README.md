@@ -20,7 +20,7 @@ At the most refined level, this hack is about creating a well-suited solution an
 
 The following version is for purposes of display only and embedded from a Google Doc resembling an Microsoft Office Word Processing File or an Adobe PDF File.  This version is presented to avoid confusion as to whether use of GitHub as a file repository for drafting a legal license or if using GitHub means "going open source with software here". [Lawyers using GitHub](https://jduclos.com/notes/github-for-lawyers) for [legal content](https://github.com/HumanDynamics/LegalAgreements/wiki/Relevant-Uses-of-GitHub-for-Legal-Document) is a long-standing practice.
 
-<iframe src="https://docs.google.com/document/d/1xzKdEAYNLgorZYwGyqWMgf1-CH17DBZCFUTD6_j72GM/pub?embedded=true"></iframe>
+<iframe src="https://docs.google.com/document/d/1xzKdEAYNLgorZYwGyqWMgf1-CH17DBZCFUTD6_j72GM/pub?embedded=true" width="800"></iframe>
 
 ## Working Structured Version
 

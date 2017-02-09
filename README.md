@@ -87,6 +87,10 @@ This hack is about exploring the question whether two or more parties who desire
 
 <contract-body> 
 
+```
+
+
+```
 
 <section> 
 

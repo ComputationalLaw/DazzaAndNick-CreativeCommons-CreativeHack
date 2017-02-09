@@ -1,13 +1,6 @@
 # Creatively Hacking Creative Commons
 
-## The Hypothesis
-
-We believe:
-
-> **"Adding of party information and signatures to an otherwise agreeable Creative Commons license will provide as good or better business value and/or legal outcomes"**
-
-
-## The Context
+## The Hack
 
 This hack is about exploring the question whether two or more parties who desire to negotiate and sign a license to share digital video media via the web can choose to adopt the standard legal terms of a Creative Commons license that adequately reflects their intent (ie: promotes sharing, prevents commercial use, etc) by replacing the legal entity "Creative Commons Corporation" with their own names/addresses and signatures in the familiar form of bilateral contracts?  
 
